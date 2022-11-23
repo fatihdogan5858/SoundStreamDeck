@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+*{
+box-sizing: border-box;
+}
+
+body {
+font-family: "Inter",sans-serif;
+background-color: rgba(24, 157, 11, 0.8) ;
+display: flex;
+flex-wrap: wrap; /*butonlar küçülttüğümüzde alta düşsün*/
+justify-content: center; 
+align-items: center;
+text-align: center;
+height: 100%;
+margin: 0;
+overflow: hidden; 
+}
+
+.btn{
+background-color: rgba(0, 0, 255, 0.8) ;
+border: none;
+border-radius:10px ;
+font-family: inherit;
+font-weight: bold ;
+padding: 1.5rem 3rem;
+margin: 1rem;
+box-shadow: 3px 3px 5px rgba(0, 0, 0,0.3);
+text-transform: uppercase;
+font-size: 16px;
+cursor: pointer;
+}
+
+.btn:hover{/*üzerine geldiğimizde flulaşıyor btn 0.9 yazdım ilk başta fazla yapmadı 0.1 verince nerdeyse kayboluyor*/
+    opacity: 0.1;
+}
+
+.btn:focus{
+    outline: none;
+}
